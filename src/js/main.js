@@ -1,3 +1,4 @@
 (function global() {
-  // console.log('JS');
+  // eslint-disable-next-line no-console
+  //console.log('JS');
 })();

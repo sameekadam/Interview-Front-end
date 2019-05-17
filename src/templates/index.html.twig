@@ -1,12 +1,160 @@
 <html>
-<head>
+  <head>
     <meta charset="UTF-8">
     <title>Axelerant: Interview Frontend</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h3>Welcome</h3>
-    {% include "_button.html.twig" %}
+    <link href="styles.css" rel="stylesheet">
 
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">COMPANY
+          <span class="logo">LOGO</span>
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Solutions</a>
+          </liclass="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+
+          <span class="btn-get-in-touch">
+              <img alt="get-in-touch" src="../images/get-in-touch.png"/>
+            <button class="get-in-touch">
+              <a class="nav-link" href="#"><img alt="get-in-touch" src="../images/get-in-touch.png"/>
+                Get In Touch</a>
+            </button>
+          </span>
+
+        </ul>
+      </div>
+    </nav>
+
+    <div class="section-integer">
+      <h1 class="section-head">Integer bibendum sit amet<br/>
+        arc vel egestas.</h1>
+      <div class="service-icon">
+        <ul class="icon-items">
+          <li>
+            <span class="staff-icon"><img alt="" src="../images/staff-icon.png"/><br/><span class="service-name">Service Name</span>
+            </span>
+          </li>
+          <li>
+            <span class="stock-vector"><img alt="" src="../images/staff-icon.png"/><br/><span class="service-name">Service Name</span>
+            </span>
+          </li>
+          <li>
+            <span class="folder-sans"><img alt="" src="../images/folder-sans.png"/><br/><span class="service-name">Service Name</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section-mauris">
+      <div class="mauris-container">
+        <span class="section-mauris-head">Mauris id bidendum est. Proin dapibus<br/>
+          solliction iaculis, Macenas<br/>
+          condimentum maximus laoreet.</span>
+        <div class="section-text">In maximum euismod egestas. Fusce tincidunt posuere est non elementum. Vivamus tincidunt eleifend nisl et gravida. Aenean in lorem ultrices, pellentesque augue eu, mattis est. Praesent sed volutpat nibh. Morbi faucibus tortor sed neque vulputate hendrerit. Sed aliquam mattis purus eleifend consectetur. Null mollis non enim non tempus.</div>
+      </div>
+      <span class="map-image"><img alt="" src="../images/map.png"/></span>
+    </div>
+    <div class="testimonials-container">
+      <h3 class="testimonials">Testimonials</h3>
+      <div class="testimonial-wrapper">
+
+
+        <div class="testimonial-box">
+          <span class="quote">&#8220;</span>
+          <span>uris at quam at mauris venenatis eleifend. Nullam eleifend odio a pretium dignissim. Aenean non rhoncus quam.</span>
+          <div class="clients">
+            <ul>
+              <li class="client-items">
+                <span class="avtar"><img alt="avtar" src="../images/avtar.png"/><br/>
+                </span>
+              </li>
+              <li>
+                <span class="client-text">CLIENT Name</span>
+                <br/>
+                <span class="position">Position, ORG</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="testimonial-box-1">
+          <span class="quote">&#8220;</span>
+          <span>nc ut ipsum iaculis, dictum magna id, lacinia ante. Nulla facilisi. Integer lobortis in risus eget volutpat. Donec interdum elit eget quam aliquam sodales. Vestibulum auctor auctor finibus.</span>
+          <div class="clients-2">
+            <ul>
+              <li class="client-items">
+                <span class="avtar"><img alt="avtar" src="../images/avtar.png"/><br/>
+                </span>
+
+                <span class="client-text">CLIENT Name</span>
+                <br/>
+                <span class="position">Position, ORG</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="testimonial-box-2">
+          <span class="quote">&#8220;</span>
+          <span>uris id bibendum est. Proin dapibus solliction iaculis. Maecenas condimentum maximums laoreet. In maximums euismod egestas.</span>
+          <div class="clients">
+            <ul>
+              <li class="client-items">
+                <span class="avtar"><img alt="avtar" src="../images/avtar.png"/><br/>
+                </span>
+              </li>
+              <li>
+                <span class="client-text">CLIENT Name</span>
+                <br/>
+                <span class="position">Position, ORG</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-convict">
+      <h2 class="section-head-3">Convicted To Work With Us?</h2>
+      <h3 class="section-head-4">Company has helped agencies keep their promise to clients since 2005.</h3>
+      <div class="names">
+        <ul>
+          <li>
+            <input type="text" placeholder="Firstname" />
+          </li>
+          <li>
+              <input type="text" placeholder="Email Address" />
+          </li>
+          <li>
+              <input type="text" placeholder="Phone Number" />
+          </li>
+        </ul>
+      </div>
+      <div class="msg-box">
+         <span class="msg-brief"> <input type="text" placeholder="Message in brief" /></span>
+      </div>
+      <div class="submit">
+        <button class="submit-btn">Submit</button>
+      </div>
+    </div>
+<div class="footer">
+    <footer>
+      <div class="footer-text">
+          <div class="copyright-text">&#169; 2017 Company. All rights reserved</div>
+          <div class="social-media">Follow us on: <span class="social-icons"><img src="../images/fb.png" alt="" /> <img src="../images/linkend.png" alt="" /> <img src="../images/twiter.png" alt="" />  <img src="../images/email.png" alt="" /></span></div>
+      </div>
+    </footer>
+  </div>
     <script src="main.js"></script>
-</body>
+  </body>
