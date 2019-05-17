@@ -6,7 +6,7 @@
   "author": "Bassam Ismail <skippednote@gmail.com>",
   "license": "MIT",
   "scripts": {
-    // "precommit": "lint-staged"
+   "precommit": "lint-staged"
   },
   "lint-staged": {
     "src/**/*.js": "eslint",
